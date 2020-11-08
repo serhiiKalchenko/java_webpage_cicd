@@ -1,3 +1,3 @@
 # maven-project
 
-Simple Maven Project
+My first CI/CD DevOps Project! 
