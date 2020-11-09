@@ -1,0 +1,18 @@
+---
+- hosts: 172.31.37.203
+
+  tasks:
+  - name: remove docker container (if it's running)
+    command: docker rm -f web-app
+    ignore_errors: yes
+
+  - name: remove current docker image (if it's available) 
+    command: docker rmi serhiikalchenko/webapp-image
+    ignore_errors: yes
+
+  - name: pull new image from Docker Hub
+    command: docker pull serhiikalchenko/webapp-image
+
+  - name: launch docker container from our new image
+    command: docker run -d --name web-app -p 8080:8080 serhiikalchenko/webapp-image
+

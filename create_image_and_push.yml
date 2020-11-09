@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+
+  tasks:
+  - name: create docker image for our web-app using *.war file (artifact)
+    command: docker build -t serhiikalchenko/webapp-image .
+    args:
+      chdir: /opt/docker
+
+  - name: push image to Docker Hub
+    command: docker push serhiikalchenko/webapp-image
+
+  - name: remove docker images from Ansible-Server
+    command: docker rmi serhiikalchenko/webapp-image
+    ignore_errors: yes
+
