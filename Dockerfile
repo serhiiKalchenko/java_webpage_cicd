@@ -1,7 +1,9 @@
-# Pull base image 
-From tomcat:8-jre8 
+# pull Tomcat image from Docker Hub 
+FROM tomcat:latest
 
-# Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
+# maintainer
+MAINTAINER "Serhii Kalchenko"
+
+# copy artifact to container 
 COPY ./webapp.war /usr/local/tomcat/webapps
 
