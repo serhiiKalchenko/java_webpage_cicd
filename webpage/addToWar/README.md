@@ -3,7 +3,7 @@
 <p>So who wanna try DevOps practices and tools?! ;)</p>
 <p>The goal is to create automated pipeline from commit at GitHub to deployed web page on a server in internet.</p>
 <p>With this source code you can deploy a simple web page (index.jsp) on a server in internet </p>
-<h2><strong>Using tools</strong></h2>
+<h2>Using tools:</h2>
 <ul>
 <li>
 <h3>docker</h3>
