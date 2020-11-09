@@ -4,21 +4,22 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.example.maven-project</groupId>
-    <artifactId>maven-project</artifactId>
+    <groupId>cicd-project</groupId>
+    <artifactId>webapp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
-  <name>Webapp</name>
-  <description>Webapp.</description>
+  <name>Web-App</name>
+  <description>A simple web page that is deployed on Tomcat server</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
 
     <plugins>
+
       <plugin>
         <groupId>org.mortbay.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
@@ -37,6 +38,7 @@
           </webResources>
         </configuration>
       </plugin>
+
     </plugins>
   </build>
 
