@@ -3,13 +3,6 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>cicd-project</groupId>
-    <artifactId>cicd-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
-  </parent>
-
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
   <name>Web-App</name>
