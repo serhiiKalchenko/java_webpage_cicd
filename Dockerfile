@@ -5,5 +5,5 @@ FROM tomcat:latest
 MAINTAINER "Serhii Kalchenko"
 
 # copy artifact to container 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webpage.war /usr/local/tomcat/webapps
 
