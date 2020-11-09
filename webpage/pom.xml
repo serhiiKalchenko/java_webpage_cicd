@@ -55,8 +55,10 @@
            <configuration>
            	  <webResources>
 	            <resource>
-	              <!-- this is relative to the pom.xml directory -->
-	              <directory>addToWar</directory>
+	              <!-- this is relative to the pom.xml directory:
+	              	"hello-world-cicd" directory 
+	              -->
+	              <directory>..</directory>
 	            </resource>
               </webResources>
         	</configuration>
