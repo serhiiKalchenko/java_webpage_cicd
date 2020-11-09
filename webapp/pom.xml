@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>my_maven_project</groupId>
+  <groupId>my_cicd_project</groupId>
   <artifactId>webpage</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>webpage Maven Webapp</name>
+  <name>My CI/CD Project</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -56,6 +56,14 @@
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
+            <configuration>
+           	  <webResources>
+	            <resource>
+	              <!-- this is relative to the pom.xml directory -->
+	              <directory>addToWar</directory>
+	            </resource>
+              </webResources>
+        	</configuration>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
