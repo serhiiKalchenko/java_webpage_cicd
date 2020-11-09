@@ -30,4 +30,5 @@
 <h2>How to use this project:</h2>
 <ol>
 <li>Install Jenkins on a remote server (VM, VPS/VDS)</li>
+<li>Copy Dockerfile and *.yml files to server where you will run web page</li>
 </ol>
