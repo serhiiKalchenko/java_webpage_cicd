@@ -2,7 +2,7 @@
 <p>This project was created for educational goals to learn CI/CD process in DevOps.</p>
 <p>So who wanna try DevOps practices and tools?! ;)</p>
 <p>The goal is to create automated pipeline from commit at GitHub to deployed web page on a server in internet.</p>
-<p>With this source code you can deploy a simple web page (index.jsp) on a server in internet </p>
+<p>With this source code you can deploy a simple web page (index.jsp) on a server in internet</p>
 <h2>Using tools:</h2>
 <ul>
 <li>
@@ -24,5 +24,10 @@
 <li>Build a source code and get artifact - 'webpage.war'</li>
 <li>Deliver artifact at server</li>
 <li>At server we create a docker image of Tomcat (web-server) with our artifact inside!</li>
-<li>Run the container and get our web page!!!)</li>
+<li>Run the container and see our web page!!!)</li>
+</ol>
+<p>&nbsp;</p>
+<h2>How to use this project:</h2>
+<ol>
+<li>Install Jenkins on a remote server (VM, VPS/VDS)</li>
 </ol>
