@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center;">My first DevOps CI/CD Project!</h1>
+<h1 style="text-align: center;">This is my CI/CD DevOps Project #1!</h1>
 <p>This project was created for educational goals. Who beginns to learn CI/CD process in DevOps it will be very useful.</p>
 <p>You can learn DevOps practices and tools! ;)</p>
 <p>The goal is to create automated pipeline from commit at GitHub to deployed web page on a server in internet.</p>
@@ -19,3 +19,10 @@
 		<h3>Maven</h3>
 	</li>
 </ul>
+
+What does this project:
+1. Take a code from GitHub
+2. Build a source code and get artifact - 'webpage.war'
+3. Deliver artifact at server.
+4. At server we create a docker image of Tomcat web-server with our artifact inside!
+5. We run the container!
