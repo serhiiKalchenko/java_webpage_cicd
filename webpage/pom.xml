@@ -59,6 +59,9 @@
 	              	"hello-world-cicd" directory 
 	              -->
 	              <directory>..</directory>
+	                <includes>
+                		<include>README.md</include>
+              	  	</includes>
 	            </resource>
               </webResources>
         	</configuration>
