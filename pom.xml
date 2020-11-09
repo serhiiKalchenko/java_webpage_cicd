@@ -3,12 +3,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>maven-project</groupId>
+  <artifactId>webapp</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description>
+  <name>My CI/CD Project</name>
+  <description>Sample CI/CD Project for deplyoing a web page on a Tomcat server using Maven, Jenkins and Ansible!</description>
   <url>http://www.example.com</url>
 
   <properties>
@@ -19,14 +19,6 @@
   <modules>
     <module>webapp</module>
   </modules>
-
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
 
   <build>
     <plugins>
@@ -209,7 +201,7 @@
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>https://github.com/serhiiKalchenko/hello-world-cicd.git</url>
   </scm>
 
   <prerequisites>
