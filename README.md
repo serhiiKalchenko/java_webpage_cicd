@@ -19,3 +19,10 @@
 		<h3>Maven</h3>
 	</li>
 </ul>
+
+What does this project:
+1. Take a code from GitHub
+2. Build a source code and get artifact - 'webpage.war'
+3. Deliver artifact at server.
+4. At server we create a docker image of Tomcat web-server with our artifact inside!
+5. We run the container!
