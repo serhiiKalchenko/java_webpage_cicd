@@ -19,40 +19,40 @@
   <modules>
     <module>webapp</module>
   </modules>
+ 
+	<reporting>
+		<plugins>
+		    <plugin>
+		      <artifactId>maven-checkstyle-plugin</artifactId>
+		    </plugin>
 
-<reporting>
-<plugins>
-    <plugin>
-      <artifactId>maven-checkstyle-plugin</artifactId>
-    </plugin>
+		    <plugin>
+		      <artifactId>maven-jxr-plugin</artifactId>
+		    </plugin>
 
-    <plugin>
-      <artifactId>maven-jxr-plugin</artifactId>
-    </plugin>
+		    <plugin>
+		      <artifactId>maven-javadoc-plugin</artifactId>
+		    </plugin>
 
-    <plugin>
-      <artifactId>maven-javadoc-plugin</artifactId>
-    </plugin>
+		    <plugin>
+		      <artifactId>maven-pmd-plugin</artifactId>
+		    </plugin>
 
-    <plugin>
-      <artifactId>maven-pmd-plugin</artifactId>
-    </plugin>
+		    <plugin>
+		      <artifactId>maven-surefire-report-plugin</artifactId>
+		    </plugin>
 
-    <plugin>
-      <artifactId>maven-surefire-report-plugin</artifactId>
-    </plugin>
+		    <plugin>
+		      <groupId>org.codehaus.mojo</groupId>
+		      <artifactId>findbugs-maven-plugin</artifactId>
+		    </plugin>
 
-    <plugin>
-      <groupId>org.codehaus.mojo</groupId>
-      <artifactId>findbugs-maven-plugin</artifactId>
-    </plugin>
-
-    <plugin>
-      <groupId>org.codehaus.mojo</groupId>
-      <artifactId>taglist-maven-plugin</artifactId>
-    </plugin>
-</plugins>
-</reporting>
+		    <plugin>
+		      <groupId>org.codehaus.mojo</groupId>
+		      <artifactId>taglist-maven-plugin</artifactId>
+		    </plugin>
+		</plugins>
+  </reporting>
 
 
 
@@ -78,6 +78,27 @@
         <configuration>
           
         </configuration>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.0.0-M3</version>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.0</version>
+                </requireMavenVersion>
+              </rules>    
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
    
