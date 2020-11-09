@@ -3,4 +3,4 @@
 <h3> Deploying 'Web-App' on server using Jenkins & Ansible </h3>
 <h4> Jenkins checks the repo every minute!</h4>
 
-<iframe width=800 height=600 src="https://raw.githubusercontent.com/serhiiKalchenko/hello-world-cicd/master/README.md"></iframe>
+<iframe width=800 height=600 src="README.md"></iframe>
