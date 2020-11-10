@@ -1,6 +1,4 @@
-<ul>
-<li style="text-align: center;">This is my CI/CD DevOps Project #1!</li>
-</ul>
+<h1 style="text-align: center;">This is my CI/CD DevOps Project #1!</h1>
 <p>This project was created for educational goals to learn CI/CD process in DevOps.</p>
 <p>So who wanna try DevOps practices and tools?! ;)</p>
 <p>The goal is to create automated pipeline from commit at GitHub to deployed web page on a server in internet.</p>
