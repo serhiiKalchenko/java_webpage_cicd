@@ -3,14 +3,13 @@
 
   tasks:
   - name: create docker image for our web-app using *.war file (artifact)
-    command: docker build -t serhiikalchenko/webapp-image .
+    command: docker build -t serhiikalchenko/webpage-image .
     args:
       chdir: /opt/docker
 
   - name: push image to Docker Hub
-    command: docker push serhiikalchenko/webapp-image
+    command: docker push serhiikalchenko/webpage-image
 
   - name: remove docker images from Ansible-Server
-    command: docker rmi serhiikalchenko/webapp-image
+    command: docker rmi serhiikalchenko/webpage-image
     ignore_errors: yes
-
