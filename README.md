@@ -1,3 +1,7 @@
+# Jenkins Job
+![Pic1](https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/screenshots/p1.png?raw=true)
+![Task 4.4.1](https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/screenshots/p1.png?raw=true)
+
 <h1 style="text-align: center;">This is my CI/CD DevOps Project #1!!!</h1>
 <p>This project was created for educational goals to learn CI/CD process in DevOps.</p>
 <p>So who wanna try DevOps practices and tools?! ;)</p>
@@ -45,6 +49,4 @@
 </ol>
 <p>P. S. Screenshots of Jenkins Job in a folder "screenshots"!</p>
 <p>to be continued.....</p>
-# Jenkins Job
-![Pic1](https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/screenshots/p1.png?raw=true)
-![Task 4.4.1](https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/screenshots/p1.png?raw=true)
+
