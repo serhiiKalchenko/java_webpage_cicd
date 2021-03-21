@@ -5,7 +5,7 @@
   - name: create docker image for our Web Page using webpage.war file (artifact)
     command: docker build -t serhiikalchenko/webpage-image .
     args:
-      chdir: /opt/docker
+      chdir: /opt/docker/webpage
 
   - name: push image to Docker Hub
     command: docker push serhiikalchenko/webpage-image
