@@ -29,17 +29,17 @@
 <p>&nbsp;</p>
 <h2>How to use this project:</h2>
 <ol>
-<li>Install Jenkins on a remote server (VM, VPS/VDS)</li>
-<li>Copy Dockerfile and *.yml files to server where you will run a web page</li>
-<li>Install Ansible on a server&nbsp;where you will run a web page</li>
-<li>Create directory ~/webpage</li>
-<li>Copy in this directory files:
+<li>Install Jenkins server on VM or any cloud instance</li>
+<li>Install Ansible server with Docker engine</li>
+<li>Install any instance with Docker engine where you wanna run a web page</li>
+<li>Create a Job on Jenkins to get artifact webpage.war on Ansible server</li>
+<li>Copy Dockerfile and *.yml files to Ansible server where you will run ansible playbooks<br />
 <ul>
 <li>Dockerfile</li>
 <li><a class="js-navigation-open link-gray-dark" title="create_image_and_push.yml" href="https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/create_image_and_push.yml">create_image_and_push.yml</a></li>
 <li><a class="js-navigation-open link-gray-dark" title="pull_image_run_container.yml" href="https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/pull_image_run_container.yml">pull_image_run_container.yml</a></li>
 </ul>
 </li>
-<li></li>
+<li>&nbsp;</li>
 </ol>
-to be continued...
+<p>to be continued...</p>
