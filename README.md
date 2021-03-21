@@ -22,7 +22,7 @@
 <ol>
 <li>Take a code from GitHub</li>
 <li>Build a source code and get artifact - 'webpage.war'</li>
-<li>Deliver artifact at server</li>
+<li>Deliver artifact to server</li>
 <li>At server we create a docker image of Tomcat (web-server) with our artifact inside!</li>
 <li>Run the container and see our web page!!!)</li>
 </ol>
@@ -31,7 +31,7 @@
 <ol>
 <li>Install Jenkins server on VM or any cloud instance</li>
 <li>Install Ansible server with Docker engine</li>
-<li>Install any instance with Docker engine where you wanna run a web page</li>
+<li>Install any instance (server) with Docker engine where you wanna run a web page in container</li>
 <li>Create a Job on Jenkins server to get artifact webpage.war on Ansible server</li>
 <li>Copy all needed files to Ansible server where you will run ansible playbooks:<br />
 <ul>
@@ -42,5 +42,5 @@
 </li>
 <li>Run a Jenkins Job</li>
 </ol>
-<p>P. S. Screenshots of Jenkins Job in a folder "screenshots"</p>
+<p>P. S. Screenshots of Jenkins Job in a folder "screenshots"!</p>
 <p>to be continued...</p>
