@@ -9,22 +9,23 @@
 <h3>docker</h3>
 </li>
 <li>
+<h3>Maven</h3>
+</li>
+<li>
 <h3>Jenkins</h3>
 </li>
 <li>
 <h3>Ansible</h3>
-</li>
-<li>
-<h3>Maven</h3>
 </li>
 </ul>
 <h2>Automated pipeline consist of:</h2>
 <ol>
 <li>Take a code from GitHub</li>
 <li>Build a source code and get artifact - 'webpage.war'</li>
-<li>Deliver artifact to server</li>
-<li>At server we create a docker image of Tomcat (web-server) with our artifact inside!</li>
-<li>Run the container and see our web page!!!)</li>
+<li>Deliver artifact to server [Ansible-Server]</li>
+<li>At server we create a docker image of Tomcat web-server with our artifact inside! And pull it to Docker Hub!</li>
+<li>Run the container with our Web Page on all hosts using Ansible</li>
+<li>See our Web Page running!;)</li>
 </ol>
 <p>&nbsp;</p>
 <h2>How to use this project:</h2>
