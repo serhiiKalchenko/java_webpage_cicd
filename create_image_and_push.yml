@@ -2,7 +2,7 @@
 - hosts: localhost
 
   tasks:
-  - name: create docker image for our web-app using *.war file (artifact)
+  - name: create docker image for our Web Page using webpage.war file (artifact)
     command: docker build -t serhiikalchenko/webpage-image .
     args:
       chdir: /opt/docker
