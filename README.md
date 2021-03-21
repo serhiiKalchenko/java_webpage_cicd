@@ -45,3 +45,5 @@
 </ol>
 <p>P. S. Screenshots of Jenkins Job in a folder "screenshots"!</p>
 <p>to be continued.....</p>
+# Jenkins Job
+  - ![Pic1](https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/screenshots/p1.png?raw=true)
