@@ -30,18 +30,11 @@
 <p>&nbsp;</p>
 <h2>How to use this project:</h2>
 <ol>
-<li>Install Jenkins server on VM or any cloud instance</li>
-<li>Install Ansible server with Docker engine</li>
-<li>Install any instance (server) with Docker engine where you wanna run a web page in container</li>
-<li>Create a Job on Jenkins server to get artifact webpage.war on Ansible server</li>
-<li>Copy all needed files to Ansible server where you will run ansible playbooks:<br />
-<ul>
-<li>Dockerfile</li>
-<li><a class="js-navigation-open link-gray-dark" title="create_image_and_push.yml" href="https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/create_image_and_push.yml">create_image_and_push.yml</a></li>
-<li><a class="js-navigation-open link-gray-dark" title="pull_image_run_container.yml" href="https://github.com/serhiiKalchenko/hello-world-cicd/blob/master/pull_image_run_container.yml">pull_image_run_container.yml</a></li>
-</ul>
-</li>
-<li>Run a Jenkins Job</li>
+<li>Install Jenkins server on VM or any cloud instance ("Jenkins-Server")</li>
+<li>Install Ansible server with Docker engine ("Ansible-Server")</li>
+<li>Install any VM (or cloud instance) with Docker engine where you wanna run a web page in container ("Docker-Server")</li>
+<li>Make sure your "Jenkins-Server" have SSH access to "Ansible-Server" and "Docker-Server"</li>
+<li>Create a Jenkins Job as showed in&nbsp;folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>" to get deployable artifact <strong>webpage.zip</strong> on "Ansible-Server" and to run ansible playbooks on it</li>
+<li>Run the Jenkins Job &amp; Enjoy!</li>
 </ol>
-<p>P. S. Jenkins Job described in a folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>"!</p>
 <p>to be continued...</p>
