@@ -23,7 +23,7 @@
 <li>Take a code from GitHub</li>
 <li>Build a source code and get artifact - 'webpage.war'</li>
 <li>Deliver artifact to server [Ansible-Server]</li>
-<li>At server we create a docker image of Tomcat web-server with our artifact inside! And pull it to Docker Hub!</li>
+<li>At server we create a docker image of Tomcat web-server with our artifact inside! And push it to Docker Hub!</li>
 <li>Run the container with our Web Page on all hosts using Ansible</li>
 <li>See our Web Page running!;)</li>
 </ol>
