@@ -22,7 +22,7 @@
 <ol>
 <li>Take a code from GitHub</li>
 <li>Build a source code and get artifact - <em><strong>webpage.zip</strong></em></li>
-<li>Deliver artifact to a server ["Ansible-Server"]</li>
+<li>Deliver artifact to a server [<em>Ansible-Server</em>]</li>
 <li>At server we create a docker image of Tomcat web-server with our web page inside! And push it to Docker Hub!</li>
 <li>Run the container from our created image on all hosts using Ansible</li>
 <li>See our Java web page running!;)</li>
@@ -30,11 +30,11 @@
 <p>&nbsp;</p>
 <h2>How to use this project:</h2>
 <ol>
-<li>Install Jenkins server on VM or any cloud instance ("Jenkins-Server")</li>
-<li>Install Ansible server with Docker engine ("Ansible-Server")</li>
-<li>Install any VM (or cloud instance) with Docker engine where you wanna run a web page in container ("Docker-Server")</li>
-<li>Make sure your "Jenkins-Server" have SSH access to "Ansible-Server" and "Docker-Server"</li>
-<li>Create a Jenkins Job as showed in&nbsp;folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>" to get deployable artifact <em><strong>webpage.zip</strong></em> on "Ansible-Server" and to run ansible playbooks on it</li>
+<li>Install Jenkins server on VM or any cloud instance [<em>Jenkins-Server</em>]</li>
+<li>Install Ansible server with Docker engine [<em>Ansible-Server</em>]</li>
+<li>Install any VM (or cloud instance) with Docker engine where you wanna run a web page in container [<em>Docker-Server</em>]</li>
+<li>Make sure your <em>Jenkins-Server</em> have SSH access to <em>Ansible-Server</em> and <em>Docker-Server</em></li>
+<li>Create a Jenkins Job as showed in&nbsp;folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>" to get deployable artifact <em><strong>webpage.zip</strong></em> on <em>Ansible-Server</em> and to run ansible playbooks on it</li>
 <li>Run the Jenkins Job &amp; Enjoy!</li>
 </ol>
 <p>to be continued...</p>
