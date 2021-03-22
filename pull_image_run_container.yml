@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.37.203
+- hosts: webservers
 
   tasks:
   - name: remove docker container (if it's running)
