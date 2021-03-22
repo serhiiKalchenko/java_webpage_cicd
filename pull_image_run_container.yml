@@ -1,6 +1,5 @@
 ---
 - hosts: webservers
-
   tasks:
   - name: remove docker container (if it's running)
     command: docker rm -f webpage
