@@ -43,6 +43,5 @@
 </li>
 <li>Run a Jenkins Job</li>
 </ol>
-<p>P. S. Screenshots of Jenkins Job in a folder "screenshots"!</p>
-<p>to be continued.....</p>
-
+<p>P. S. Jenkins Job described in a folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>"!</p>
+<p>to be continued...</p>
