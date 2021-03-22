@@ -33,7 +33,7 @@
 <li>Install Jenkins server on VM or any cloud instance [<em>Jenkins-Server</em>]</li>
 <li>Install Ansible server with Docker engine [<em>Ansible-Server</em>]</li>
 <li>Install any VM (or cloud instance) with Docker engine where you wanna run a web page in container [<em>Docker-Server</em>]</li>
-<li>Make sure your <em>Jenkins-Server</em> have SSH access to <em>Ansible-Server</em> and <em>Docker-Server</em></li>
+<li>Make sure your <em>Jenkins-Server</em> have SSH access to <em>Ansible-Server</em> and <em>Ansible-Server</em> have SSH access to <em>Docker-Server</em></li>
 <li>Create a Jenkins Job as showed in&nbsp;folder "<a class="js-navigation-open Link--primary" title="Jenkins_Job_screenshots" href="https://github.com/serhiiKalchenko/java_webpage_cicd/tree/main/Jenkins_Job_screenshots" data-pjax="#repo-content-pjax-container">Jenkins_Job_screenshots</a>" to get deployable artifact <em><strong>webpage.zip</strong></em> on <em>Ansible-Server</em> and to run ansible playbooks on it</li>
 <li>Run the Jenkins Job &amp; Enjoy!</li>
 </ol>
